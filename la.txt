@@ -1,4 +1,4 @@
-Row picture / column picture / matrix form
+Lecture 1 - Row picture / column picture / matrix form
 
 ex.
  2x -  1y + 0z =  0
@@ -31,3 +31,35 @@ Matrix form: Ax = b (multiply a matrix by a vector)
 |1 3||2| = 1|1| + 2|3| = | 7|    (linear combination of columns or dot product if you do it row by row)
 
 Ax is a combination of columns of A
+====================================================================
+Lecture 2 - Elimination / back-substitution
+
+Two outcome: success / failure (usually success if given a good matrix)
+how to fail: the pivot is 0 and can be exchanged with the lower row(s) (lower row does not exist or it's also 0)
+
+ex.
+1x + 2y + 1z =  2
+3x + 8y + 1z = 12
+0x + 4y + 1z =  2
+
+   Ax = b
+do subtraction to eliminate some cells in the matrix
+|1 2 1|       | 1  2  1|      | 1  2  1|
+|3 8 1|   ->  | 0  2 -2|  ->  | 0  2 -2|
+|0 4 1|       | 0  4  1|      | 0  0  5|
+   A                               U (upper triangular)
+1st pivot (1,1) -> multiply it to a multipler to eliminate (2,1) (and (3,1) furthermore)
+2nd pivot (2,2) -> to clean up (3,2)
+3rd pivot (3,3)
+[note: pivots shouldn't be 0]
+
+what happens to column b? (perform the same operations as matrix A)
+| 2|    | 2|    |  2|
+|12| -> | 6| -> |  6|
+| 2|    | 2|    |-10|
+  b                c
+  
+now you have:
+ x + 2y +  z =   2     x  =  2
+     2y - 2z =   6  => y  =  1
+          5z = -10     z  = -2 (solved by back-substitution)
