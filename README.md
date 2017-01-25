@@ -1,2 +1,1 @@
-# notebook
-A notebook of stuff I learn
+# Translate one tag a day
