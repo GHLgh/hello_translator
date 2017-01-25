@@ -8,5 +8,5 @@ So here I am, using this repository to mark down what I have contributed to loca
 <p id="demoo">abc</p>
 
 <script>
-document.getElementById("user-content-demo").innerHTML = "Hello JavaScript!";
+document.getElementById("user-content-demoo").innerHTML = "Hello JavaScript!";
 </script> 
