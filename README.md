@@ -5,4 +5,6 @@ And one of my programming "mentor" believe that it is easier to understand and t
 
 So here I am, using this repository to mark down what I have contributed to localization. <del>And what is more, this can make my contribution graph look prettier.
 
-<script src="notexist"></script>
+# Personal Conventions
+* Any hypertext will be translated into following format: **text in local language [original hypetext]**. Note: if there is localized version of the directed page, replace the text in local language to a hypertext to localized page.
+* For terminology and name of institution, etc. if there is acceptant localized version or its translation is self-explanatory, then it will be translated. Otherwise, it will be either translated into following format: **text in local language [original text]** or kept as what its original text is.
