@@ -8,3 +8,4 @@ So here I am, using this repository to mark down what I have contributed to loca
 # Personal Conventions
 * Any hypertext will be translated into following format: **text in local language [original hypetext]**. Note: if there is localized version of the directed page, replace the text in local language to a hypertext to localized page.
 * For terminology and name of institution, etc. if there is acceptant localized version or its translation is self-explanatory, then it will be translated. Otherwise, it will be either translated into following format: **text in local language [original text]** or kept as what its original text is.
+* If the page is partially translated by others, keep their translation and adopt their translation of terminology if it doesn't lead to misunderstanding.
