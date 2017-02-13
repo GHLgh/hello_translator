@@ -1,3 +1,4 @@
+**The official abbreviation for language Chinese should be "Zh". Using "CN" here because it seems to match "EN"**
 # TODO: Task Queue
 |Date|Task|Estimated Deadline|
 |---|---|---:|
